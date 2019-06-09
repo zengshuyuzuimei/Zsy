@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle("曾淑雨");
         //添加控件
         EditText editText = new EditText(this, null);
+        //添加控件
+        Button button = new Button(this, null);
     }
 }
